@@ -8,18 +8,58 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="566dp"
+        android:layout_height="918dp"
         app:srcCompat="@drawable/fundonuvenstoystory"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteX="-30dp"
+        tools:layout_editor_absoluteY="-26dp" />
+
+    <ImageButton
+        android:id="@+id/btnImportancia"
+        android:layout_width="94dp"
+        android:layout_height="65dp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="666dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageButton
+        android:id="@+id/BtnOndeDoar"
+        android:layout_width="307dp"
+        android:layout_height="98dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="295dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageButton
+        android:id="@+id/BtnComoDoar"
+        android:layout_width="307dp"
+        android:layout_height="98dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="423dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="180dp"
-        android:layout_height="104dp"
+        android:layout_width="238dp"
+        android:layout_height="133dp"
         app:srcCompat="@drawable/toydonation"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="30dp" />
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <ImageButton
+        android:id="@+id/BtnBeneficio"
+        android:layout_width="293dp"
+        android:layout_height="98dp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="159dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageButton
+        android:id="@+id/BtnImportancia"
+        android:layout_width="303dp"
+        android:layout_height="106dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="548dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
