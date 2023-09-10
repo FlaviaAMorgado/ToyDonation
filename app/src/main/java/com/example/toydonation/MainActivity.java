@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btnentrar.setOnClickListener(new View.OnClickListener() {
             @Override // verificar se tem no cod
             public void onClick(View v) {
-                Intent Principal = new Intent( MainActivity.this, PqDoar.class);
+                Intent Principal = new Intent( MainActivity.this, Principal.class);
                 startActivity(Principal);
             }
         });

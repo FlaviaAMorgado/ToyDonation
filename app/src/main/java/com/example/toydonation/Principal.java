@@ -29,13 +29,13 @@ public class Principal extends AppCompatActivity {
         BtnOndeDoar = findViewById (R.id.BtnOndeDoar);
         BtnComoDoar = findViewById (R.id.BtnComoDoar);
         BtnImportancia = findViewById (R.id.BtnImportancia);
-
+        BtnPerfil = findViewById (R.id.BtnPerfil);
 
         BtnImportancia.setOnClickListener(new View.OnClickListener(){
             @Override // verificar se tem no cod
-            public void onClick(View v){
-                Intent PqDoar = new Intent(Principal.this, PqDoar.class);
-                startActivity(PqDoar);
+            public void onClick(View i){
+                Intent Importancia = new Intent(Principal.this, PqDoar.class);
+                startActivity(Importancia);
             }
         });
     }
