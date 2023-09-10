@@ -4,19 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundotoy"
     tools:context=".Ondedoar">
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/fundonuvenstoystory" />
 
     <View
         android:id="@+id/logincadastro3"
@@ -45,8 +34,10 @@
         android:layout_height="62dp"
         android:text="instituição2"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="334dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/logincadastro2"
+        app:layout_constraintEnd_toEndOf="@+id/logincadastro2"
+        app:layout_constraintStart_toStartOf="@+id/logincadastro2"
+        app:layout_constraintTop_toTopOf="@+id/logincadastro2" />
 
     <TextView
         android:id="@+id/textView4"
@@ -54,8 +45,10 @@
         android:layout_height="62dp"
         android:text="instituição3"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="500dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/logincadastro3"
+        app:layout_constraintEnd_toEndOf="@+id/logincadastro3"
+        app:layout_constraintStart_toStartOf="@+id/logincadastro3"
+        app:layout_constraintTop_toTopOf="@+id/logincadastro3" />
 
     <View
         android:id="@+id/logincadastro"
@@ -72,9 +65,36 @@
         android:id="@+id/textView2"
         android:layout_width="274dp"
         android:layout_height="62dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="43dp"
         android:text="instituição1"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="147dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/logincadastro"
+        app:layout_constraintEnd_toEndOf="@+id/logincadastro"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="@+id/logincadastro"
+        app:layout_constraintTop_toTopOf="@+id/logincadastro"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="247dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ondedoar" />
+
+    <Button
+        android:id="@+id/BtnMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BtnMapa"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="644dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
