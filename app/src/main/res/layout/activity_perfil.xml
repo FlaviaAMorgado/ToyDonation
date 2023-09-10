@@ -4,6 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundoperfil"
     tools:context=".Perfil">
 
+    <Button
+        android:id="@+id/BtnDoar"
+        android:layout_width="185dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="113dp"
+        android:text="@string/BtnDoar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BtnBrinquedosDoados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="154dp"
+        android:text="@string/BtnBrinquedosDoados"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnDoar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
