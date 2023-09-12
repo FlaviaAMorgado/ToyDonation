@@ -20,10 +20,15 @@ public class Ondedoar extends AppCompatActivity {
         BtnMapa = findViewById(R.id.BtnMapa);
         BtnMapa.setOnClickListener(new View.OnClickListener() {
             @Override // verificar se tem no cod
-            public void onClick(View cd) {
-              // Uri location = Uri.parse (“geo:-23.487397160607976,-46.73992407620505?z=14”);
-                Intent map = new Intent(Intent.ACTION_VIEW, location);
-                startActivity(map);
+            public void onClick(View v) {
+
+                double latitude = -23.486393083991224;
+                double longitude = -46.74007585711585;
+                Uri location = Uri.parse ("geo:"+latitude+","+longitude);
+
+                // Uri location = Uri.parse (“"geo:"0,0"?q=""Projeto"+"Saint"+"German"”); por pesquisa
+               Intent map = new Intent(Intent.ACTION_VIEW, location);
+               startActivity(map);
             }
         });
     }
