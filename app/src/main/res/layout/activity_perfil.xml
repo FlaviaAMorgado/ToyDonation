@@ -7,27 +7,80 @@
     android:background="@drawable/fundoperfil"
     tools:context=".Perfil">
 
-    <Button
-        android:id="@+id/BtnDoar"
-        android:layout_width="185dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="113dp"
-        android:layout_marginTop="237dp"
-        android:layout_marginEnd="113dp"
-        android:text="@string/BtnDoar"
+    <View
+        android:id="@+id/logincadastro2"
+        android:layout_width="311dp"
+        android:layout_height="258dp"
+        android:background="@drawable/fundotxt"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <Button
+        android:id="@+id/BtnDoar"
+        android:layout_width="193dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="109dp"
+        android:backgroundTint="@color/azulbotao"
+        android:text="@string/BtnDoar"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="297dp" />
 
     <Button
         android:id="@+id/BtnBrinquedosDoados"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="166dp"
-        android:layout_marginTop="101dp"
-        android:layout_marginEnd="154dp"
+        android:layout_width="268dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="109dp"
+        android:backgroundTint="@color/azulbotao"
         android:text="@string/BtnBrinquedosDoados"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BtnDoar" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="147dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usuario" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="231dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtusuariodescr"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/usuariotitle" />
+
+    <TextView
+        android:id="@+id/txtusuariodescr"
+        android:layout_width="226dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/txtusuariodescr"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="78dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

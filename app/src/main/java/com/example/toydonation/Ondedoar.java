@@ -26,7 +26,7 @@ public class Ondedoar extends AppCompatActivity {
                 double longitude = -46.74007585711585;
                 Uri location = Uri.parse ("geo:"+latitude+","+longitude);
 
-                // Uri location = Uri.parse (“"geo:"0,0"?q=""Projeto"+"Saint"+"German"”); por pesquisa
+               // Uri location = Uri.parse (“"geo:"0,0"?q=""Projeto"+"Saint"+"German"”); por pesquisa
                Intent map = new Intent(Intent.ACTION_VIEW, location);
                startActivity(map);
             }

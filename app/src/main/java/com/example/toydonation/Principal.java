@@ -34,15 +34,15 @@ public class Principal extends AppCompatActivity {
         BtnImportancia.setOnClickListener(new View.OnClickListener(){
             @Override // verificar se tem no cod
             public void onClick(View i){
-                Intent Importancia = new Intent(Principal.this, PqDoar.class);
-                startActivity(Importancia);
+                Intent PqDoar = new Intent(Principal.this, PqDoar.class);
+                startActivity(PqDoar);
             }
         });
         BtnBeneficio.setOnClickListener(new View.OnClickListener() {
             @Override // verificar se tem no cod
             public void onClick(View b) {
-                Intent Beneficios = new Intent( Principal.this, Beneficio.class);
-                startActivity(Beneficios);
+                Intent Beneficio = new Intent( Principal.this, Beneficio.class);
+                startActivity(Beneficio);
             }
         });
         BtnOndeDoar.setOnClickListener(new View.OnClickListener() {
@@ -55,8 +55,8 @@ public class Principal extends AppCompatActivity {
         BtnPerfil.setOnClickListener(new View.OnClickListener() {
             @Override // verificar se tem no cod
             public void onClick(View p) {
-                Intent Perifl= new Intent( Principal.this, Login.class); //tava perfil pq? "Perfil.class"
-                startActivity(Perifl);
+                Intent Perfil= new Intent( Principal.this, Login.class); //tava perfil pq? "Perfil.class"
+                startActivity(Perfil);
             }
         });
         BtnComoDoar.setOnClickListener(new View.OnClickListener() {

@@ -43,7 +43,7 @@
         android:layout_gravity="center"
         android:text="@string/BeneficiosTxt"
         android:textAlignment="center"
-        android:textSize="34sp"
+        android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

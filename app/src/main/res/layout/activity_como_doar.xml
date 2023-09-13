@@ -35,15 +35,22 @@
         android:layout_width="316dp"
         android:layout_height="374dp"
         android:text="@string/ComoDoarTxt"
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="164dp"
+        android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45"
-        />
+        app:layout_constraintVertical_bias="0.45" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="281dp"
+        android:layout_height="234dp"
+        android:layout_marginBottom="335dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtcomodoart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/comodoar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

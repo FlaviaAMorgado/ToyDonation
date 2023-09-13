@@ -15,7 +15,7 @@ public class Perfil extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perfil); // aqui a mesma coisa, é perfil ou main? main estava dando erro
+        setContentView(R.layout.activity_perfil);
 
         BtnDoar = findViewById (R.id.BtnDoar);
         BtnBrinquedosDoados = findViewById (R.id.BtnBrinquedosDoados);
