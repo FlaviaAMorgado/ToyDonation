@@ -21,4 +21,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="263dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="258dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/login" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
