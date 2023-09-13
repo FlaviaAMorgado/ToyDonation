@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class Principal extends AppCompatActivity {
 
@@ -15,7 +17,7 @@ public class Principal extends AppCompatActivity {
     ImageButton BtnComoDoar;
 
     // barra
-    ImageButton BtnPerfil;
+    ImageView BtnPerfil;
 
 
     @Override
@@ -38,6 +40,7 @@ public class Principal extends AppCompatActivity {
                 startActivity(PqDoar);
             }
         });
+
         BtnBeneficio.setOnClickListener(new View.OnClickListener() {
             @Override // verificar se tem no cod
             public void onClick(View b) {

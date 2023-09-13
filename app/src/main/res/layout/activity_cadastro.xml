@@ -24,15 +24,23 @@
         android:id="@+id/BtnCadastrar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="181dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="502dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/BtnLogin2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="49dp" />
+        android:layout_width="193dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="229dp"
+        android:backgroundTint="@color/azulbotao"
+        android:text="@string/BtnLogin2"
+        android:textSize="34sp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
