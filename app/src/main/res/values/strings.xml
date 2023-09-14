@@ -5,8 +5,10 @@
     <string name="BtnBrinquedosDoados">BRINQUEDOS DOADOS</string>
     <string name="BtnMapa">MAPA</string>
     <string name="BtnCadastrar1">CADASTRAR</string>
+    <string name="BtnLogin1">LOGIN</string>
     <string name="BtnLogin2">Logar-se</string>
     <string name="BtnImportancia">TESTE</string>
+    <string name="txtSenha">Senha:</string>
 
     //Textos //
     <string name="ComoDoarTxt"> Escolha brinquedos em boas condições, como Woody e Buzz sempre prontos para a diversão. Ao doar com intenção e qualidade, você garante que a alegria se estenda</string>

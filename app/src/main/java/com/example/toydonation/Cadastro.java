@@ -1,15 +1,19 @@
 package com.example.toydonation;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class Cadastro extends AppCompatActivity { //Main Activity? no cod mandado
     Button BtnCadastrar1;
     Button BtnLogin2;
+    /* EditText edtxtNome;
+    EditText edtxtEmail;
+    EditText edtxtTelefone;
+    EditText edtxtSenha; */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

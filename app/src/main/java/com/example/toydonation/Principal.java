@@ -1,13 +1,12 @@
 package com.example.toydonation;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Principal extends AppCompatActivity {
 
@@ -36,37 +35,37 @@ public class Principal extends AppCompatActivity {
         BtnImportancia.setOnClickListener(new View.OnClickListener(){
             @Override // verificar se tem no cod
             public void onClick(View i){
-                Intent PqDoar = new Intent(Principal.this, PqDoar.class);
-                startActivity(PqDoar);
+                Intent pqdoar = new Intent(Principal.this, PqDoar.class);
+                startActivity(pqdoar);
             }
         });
 
         BtnBeneficio.setOnClickListener(new View.OnClickListener() {
             @Override // verificar se tem no cod
             public void onClick(View b) {
-                Intent Beneficio = new Intent( Principal.this, Beneficio.class);
-                startActivity(Beneficio);
+                Intent beneficio = new Intent( Principal.this, Beneficio.class);
+                startActivity(beneficio);
             }
         });
         BtnOndeDoar.setOnClickListener(new View.OnClickListener() {
             @Override // verificar se tem no cod
             public void onClick(View o) {
-                Intent OndeDoar= new Intent( Principal.this, Ondedoar.class);
-                startActivity(OndeDoar);
+                Intent ondedoar= new Intent( Principal.this, Ondedoar.class);
+                startActivity(ondedoar);
             }
         });
         BtnPerfil.setOnClickListener(new View.OnClickListener() {
             @Override // verificar se tem no cod
             public void onClick(View p) {
-                Intent Perfil= new Intent( Principal.this, Login.class); //tava perfil pq? "Perfil.class"
-                startActivity(Perfil);
+                Intent perfil= new Intent( Principal.this, Cadastro.class); //tava perfil pq? "Perfil.class"
+                startActivity(perfil);
             }
         });
         BtnComoDoar.setOnClickListener(new View.OnClickListener() {
             @Override // verificar se tem no cod
             public void onClick(View c) {
-                Intent ComoDoar= new Intent( Principal.this, ComoDoar.class);
-                startActivity(ComoDoar);
+                Intent comodoar= new Intent( Principal.this, ComoDoar.class);
+                startActivity(comodoar);
             }
         });
     }
