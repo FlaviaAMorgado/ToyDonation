@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="297dp" />
+        app:layout_constraintTop_toTopOf="@+id/logincadastro2" />
 
     <Button
         android:id="@+id/BtnBrinquedosDoados"
@@ -57,7 +57,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/usuario" />
+        app:srcCompat="@drawable/usuario"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -65,10 +66,10 @@
         android:layout_height="137dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="9dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="28dp"
         app:layout_constraintBottom_toBottomOf="@+id/txtusuariodescr"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.277"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/usuariotitle" />
 
@@ -78,9 +79,11 @@
         android:layout_height="56dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="124dp"
         android:text="@string/txtusuariodescr"
+        app:layout_constraintBottom_toTopOf="@+id/logincadastro2"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="78dp" />
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

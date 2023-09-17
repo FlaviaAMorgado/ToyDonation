@@ -23,7 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/btnimportancia"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/BtnComoDoar"
@@ -86,7 +86,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BtnOndeDoar"
         app:srcCompat="@drawable/btnperfil"
-        tools:ignore="ContentDescription,UsingOnClickInXml,SpeakableTextPresentCheck" />
+        tools:ignore="ContentDescription,UsingOnClickInXml,SpeakableTextPresentCheck,ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imgtoy"
