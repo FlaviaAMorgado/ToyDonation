@@ -9,7 +9,7 @@
     tools:context=".Principal">
 
     <ImageButton
-        android:id="@+id/BtnImportancia"
+        android:id="@+id/btnImportancia"
         android:layout_width="319dp"
         android:layout_height="108dp"
         android:layout_marginStart="46dp"
@@ -22,7 +22,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/btnimportancia" />
+        app:srcCompat="@drawable/btnimportancia"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/BtnComoDoar"
@@ -36,8 +37,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BtnImportancia"
-        app:srcCompat="@drawable/btncomodoar" />
+        app:layout_constraintTop_toBottomOf="@+id/btnImportancia"
+        app:srcCompat="@drawable/btncomodoar"
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/BtnBeneficio"
@@ -52,7 +54,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BtnComoDoar"
-        app:srcCompat="@drawable/btnbeneficio" />
+        app:srcCompat="@drawable/btnbeneficio"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
 
     <ImageButton
         android:id="@+id/BtnOndeDoar"
@@ -66,7 +69,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BtnBeneficio"
-        app:srcCompat="@drawable/btnondedoar" />
+        app:srcCompat="@drawable/btnondedoar"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/BtnPerfil"
@@ -81,20 +85,23 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BtnOndeDoar"
-        app:srcCompat="@drawable/btnperfil" />
+        app:srcCompat="@drawable/btnperfil"
+        tools:ignore="ContentDescription,UsingOnClickInXml,SpeakableTextPresentCheck" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/imgtoy"
         android:layout_width="162dp"
         android:layout_height="78dp"
         android:layout_marginStart="124dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="125dp"
         android:layout_marginBottom="9dp"
-        app:layout_constraintBottom_toTopOf="@+id/BtnImportancia"
+        app:layout_constraintBottom_toTopOf="@+id/btnImportancia"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/toydonation" />
+        app:srcCompat="@drawable/toydonation"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

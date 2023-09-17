@@ -21,10 +21,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toBottomOf="@+id/toyimg" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/toyimg"
         android:layout_width="292dp"
         android:layout_height="264dp"
         android:layout_marginStart="59dp"

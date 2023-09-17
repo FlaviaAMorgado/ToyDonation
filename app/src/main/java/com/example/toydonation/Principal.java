@@ -29,7 +29,7 @@ public class Principal extends AppCompatActivity {
         BtnBeneficio = findViewById (R.id.BtnBeneficio);
         BtnOndeDoar = findViewById (R.id.BtnOndeDoar);
         BtnComoDoar = findViewById (R.id.BtnComoDoar);
-        BtnImportancia = findViewById (R.id.BtnImportancia);
+        BtnImportancia = findViewById (R.id.btnImportancia);
         BtnPerfil = findViewById (R.id.BtnPerfil);
 
         BtnImportancia.setOnClickListener(new View.OnClickListener(){
