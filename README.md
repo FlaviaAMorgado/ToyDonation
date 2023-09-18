@@ -20,3 +20,14 @@ Essse projeto "Toy Donation" está sendo desenvolvido durante esse bimestre pela
 
 É necessário o conectar com banco de dados, fazer um sistema e adicionar mais funções que serão ensinadas em sala de aula. Porém essas já estão nos nosso planos para fazer as melhorias e incrementação do nosso aplicativo expositivo sobre a sustentabilidade.
 
+- Aplicativo rodando, tanto no celular, quanto no emulador:
+  
+
+
+https://github.com/FlaviaAMorgado/ToyDonation/assets/127424225/705a5876-4775-4bfa-9f22-227177dda255
+
+
+
+https://github.com/FlaviaAMorgado/ToyDonation/assets/127424225/d838d83e-e665-40ac-b7bf-f0d179a91237
+
+
