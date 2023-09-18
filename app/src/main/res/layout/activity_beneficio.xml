@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/testefundo"
+    android:background="@drawable/fundo"
     tools:context=".Beneficio">
 
     <ImageView
@@ -20,12 +20,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/beneficios" />
+        app:srcCompat="@drawable/beneficios"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="369dp"
-        android:layout_height="347dp"
+        android:layout_width="367dp"
+        android:layout_height="356dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="21dp"
