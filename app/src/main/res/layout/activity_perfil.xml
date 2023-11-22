@@ -23,10 +23,13 @@
         android:layout_width="193dp"
         android:layout_height="71dp"
         android:layout_marginStart="109dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="109dp"
+        android:layout_marginBottom="28dp"
         android:backgroundTint="@color/azulbotao"
         android:text="@string/BtnDoar"
         android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/BtnBrinquedosDoados"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,18 +40,18 @@
         android:layout_width="268dp"
         android:layout_height="65dp"
         android:layout_marginStart="109dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="109dp"
         android:backgroundTint="@color/azulbotao"
         android:text="@string/BtnBrinquedosDoados"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BtnDoar" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imgPersonagens"
         android:layout_width="147dp"
         android:layout_height="180dp"
         android:layout_marginStart="238dp"
@@ -68,7 +71,7 @@
         android:layout_marginEnd="9dp"
         android:layout_marginBottom="28dp"
         app:layout_constraintBottom_toBottomOf="@+id/txtusuariodescr"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/imgPersonagens"
         app:layout_constraintHorizontal_bias="0.277"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/usuariotitle" />
@@ -82,7 +85,7 @@
         android:layout_marginBottom="124dp"
         android:text="@string/txtusuariodescr"
         app:layout_constraintBottom_toTopOf="@+id/logincadastro2"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/imgPersonagens"
         app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent" />
 

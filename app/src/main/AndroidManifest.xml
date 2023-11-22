@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ToyDonation"
         tools:targetApi="31">
         <activity
+            android:name=".Missao"
+            android:exported="false" />
+        <activity
             android:name=".Principal"
             android:exported="false" />
         <activity

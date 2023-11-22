@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Button btnentrar;
+    Button butao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         btnentrar = findViewById(R.id.btnentrar);
+        butao = findViewById(R.id.butao);
 
 
         btnentrar.setOnClickListener(new View.OnClickListener() {
@@ -24,6 +26,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent Principal = new Intent( MainActivity.this, Principal.class);
                 startActivity(Principal);
+            }
+        });
+        butao.setOnClickListener(new View.OnClickListener(){
+            @Override // verificar se tem no cod
+            public void onClick(View i){
+                Intent missao = new Intent(MainActivity.this, Missao.class);
+                startActivity(missao);
             }
         });
     }
