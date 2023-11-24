@@ -12,12 +12,26 @@
         android:layout_width="244dp"
         android:layout_height="307dp"
         android:layout_marginStart="83dp"
-        android:layout_marginTop="212dp"
         android:layout_marginEnd="84dp"
-        android:layout_marginBottom="212dp"
+        android:layout_marginBottom="132dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bolaimg" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="381dp"
+        android:layout_height="231dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgToys"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bolaimg" />
+        app:srcCompat="@drawable/movimente" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
